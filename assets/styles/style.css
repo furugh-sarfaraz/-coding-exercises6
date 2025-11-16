@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #007BFF;
+  font-family: 'tahoma';
+  direction: rtl;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ghab {
+  background-color: #fff;
+  width: 280px;
+  height: 380px;
+  border-radius: 10px;
+  text-align: left;
+}
+.poster {
+  height: 220px;
+  width: calc(100% - 20px);
+  margin: 8px auto 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+.title-dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px 10px 10px 10px; 
+}
+.title-animation {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+}
+.dots {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5;
+  font-size: 15px;
+  color: #555;
+  margin-left: 12px; 
+}
+.discription {
+  font-weight: bold;
+  font-size: 14px;
+  color: #222;
+  margin: 15px;
+  direction: ltr;
+  margin-top: 20px;
+  margin-bottom: 0%;
+}
+.emtiyaz {
+  font-weight: bold;
+  font-size: 14px;
+  color: #222;
+  margin: 15px;
+  margin-top: 5px;
+}
